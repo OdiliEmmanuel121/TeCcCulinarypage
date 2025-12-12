@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "./pages/Homepage/Home"
+import Home from "./pages/homepage/Home"
 import Services from "./pages/servicepage/Services"
 import Nav from "./component/navfolder/navpage/Nav"
 import Faqs from "./pages/faqs/Faqs"
@@ -7,7 +7,7 @@ import Contactus from "./pages/contactpage/Contactus"
 
 
 
-const App = () => {
+const App = () => {git
   return (
     <div>
       <BrowserRouter>
