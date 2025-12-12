@@ -1,0 +1,51 @@
+.ContactUsContainer{
+    /* Removed position: absolute to allow the content to flow naturally */
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 0 40px 0; /* Add padding at the bottom */
+    background: linear-gradient(180deg, rgba(202, 202, 202, 0.85) 47.6%, rgba(56, 157, 207, 0.85) 100%);
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.inputs { /* Changed from #inputs to .inputs for class selector */
+    display: flex;
+    flex-direction: column;
+    max-width: 630px; /* Set a max-width */
+    margin: 40px auto 0 auto; /* Center the form and add top margin */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inputs input, 
+.inputs textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inputs textarea {
+    resize: vertical; /* Allow vertical resizing for the message area */
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #02438a;
+}
+
+/* Removed the invalid SelectActionCard CSS block entirely */

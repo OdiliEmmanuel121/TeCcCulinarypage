@@ -1,0 +1,117 @@
+.NavContainer {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    /* background-color: white;  */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    z-index: 100;
+    margin-top: 25px;
+    
+}
+
+
+.logo { 
+    width: 100px;
+    height: auto; 
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.Nav-Links-And-Toggle {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+nav .links {
+    
+    display: flex;
+    justify-content: space-between; 
+    gap: 25px; 
+    height: auto;
+    margin-right: 30px;
+    
+}
+
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0; 
+    transition: color 0.3s;
+    
+}
+
+.links a:hover {
+    color: #f8f8f8;
+}
+
+
+.bar {
+    display: none; 
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 780px) {
+  
+    .bar {
+        display: block; 
+        margin-right: -70px;
+        margin-top: -60px;
+    }
+    
+
+    nav .links {
+        display: none; 
+        flex-direction: column;
+        justify-content: flex-start;
+        
+       
+        position: absolute;
+      
+        top: 60px; 
+        left: 0;
+        width: 100%;
+        margin: 0;
+        /* Added horizontal padding to give space from the screen edges */
+        padding: 10px 20px; 
+        background-color: rgb(10, 138, 155);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        z-index: 90; 
+        height: auto;
+    }
+
+     
+    .links.show {
+        display: flex; 
+    }
+
+ 
+    .links a {
+        width: 100%;
+        text-align: center; /* Changed from center for better alignment with padding */
+        /* Increased vertical padding, added horizontal padding of 0 */
+        padding: 15px 0; 
+        border-bottom: 1px solid #b3b0b0;
+        /* Ensure the link text doesn't touch the edge of the menu container */
+        padding-left: 10px; 
+        
+    }
+    
+    .links a:last-child {
+        border-bottom: none;
+    }
+}

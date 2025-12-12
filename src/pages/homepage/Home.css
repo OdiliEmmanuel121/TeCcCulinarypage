@@ -1,0 +1,804 @@
+.HomeContainer {
+    /* background-color: chartreuse; */
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #EEE9E9;
+}
+
+.HomeContainer h1 {
+    position: absolute;
+    width: 630px;
+    height: 94px;
+    left: calc(51.5% - 630px/2 - 44.5px);
+    top: 120px;
+
+
+    color: #C80808;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15), 0px 1px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-weight: 800;
+
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-size: 35px;
+
+}
+
+.HomeContainer p {
+
+    position: absolute;
+    width: 739px;
+    height: 60px;
+    left: calc(48% - 739px/2 + 0.5px);
+    top: 197px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.location {
+    position: relative;
+
+    width: 20px;
+    height: 21px;
+    left: calc(54% - 150px/2 - 13px);
+    top: 245px;
+}
+
+section input {
+    position: absolute;
+    width: 360px;
+    height: 35px;
+    left: calc(44% - 233px/2 - 13.5px);
+    top: 275px;
+    box-shadow: 1px 1px 1px 1px rgba(0.50, 0.50, 0.50, 0.50);
+    border-radius: 7px 7px 7px 7px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #696f70;
+    border-style: none;
+}
+
+
+section button {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: calc(49% - 150px/2 - 13px);
+    top: 320px;
+    background: #579111;
+
+    box-shadow: 2px 2px 2px rgba(0.25, 0.25, 0.25, 0.25);
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 11px;
+    text-align: center;
+    border-style: none;
+
+    color: #FFFFFF;
+
+}
+
+section button:hover {
+    background-color: #325a01;
+    color: #87b17f;
+}
+
+
+.secondPart {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-left: 90px;
+    margin-right: 150px;
+
+
+}
+
+.secondPart h2 {
+    font-family: bio rhyme;
+    font-style: normal;
+    font-weight: 1000px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1E1B74;
+    margin-top: 150px;
+}
+
+
+.food245 #food4 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 835px;
+    top: 360px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 0px;
+}
+
+
+.food245 #food5 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 970px;
+    top: 360px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.food245 #food2 {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 1103px;
+    top: 360px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 20px 0px 0px;
+}
+
+.thirdPart #car1 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 170px;
+    top: 540px;
+
+    background: url(ddfdf.jpg);
+    border-radius: 10px 0px;
+
+}
+
+.thirdPart #car2 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 335px;
+    top: 540px;
+
+    background: url(fredf.jpg);
+    border-radius: 10px 0px;
+
+}
+
+.thirdPart #car3 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 500px;
+    top: 540px;
+
+    background: url(fgf.jpg);
+    border-radius: 10px 0px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.thirdPart #whiterice {
+    position: absolute;
+    width: 450px;
+    height: 230px;
+    left: 835px;
+    top: 480px;
+    box-shadow: 1px 2px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 0px 100px;
+
+
+}
+
+.hunger {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    gap: 150px;
+    color: #000000;
+
+}
+
+.serviceSection {
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    margin-top: 300px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    background: #579111;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 900px;
+    ;
+
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gg {
+    width: 160px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.aa {
+    width: 160px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.serviceBox h4 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+    color: #181616;
+    margin-top: 30px;
+
+
+}
+
+.cardBoxServ {
+    width: 1200px;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #29274C;
+    border-radius: 15px;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 200px; */
+    padding-bottom: 20px;
+}
+
+.cardBoxServ h3 {
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.SevFirstSection {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+.h3first,
+.h3third {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+
+    /* ARMY */
+    color: #579111;
+}
+
+.h3Second {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: center;
+
+    /* DEEP RED */
+    color: #651414;
+
+}
+
+.h3third {
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.SevSecondSection {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 70px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(20, 19, 19);
+}
+
+.SevThirdSection {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+    height: 550px;
+}
+
+.SevFourtSection {
+    width: 1300px;
+    height: 1000px;
+    margin-top: 50px;
+    background: #000000;
+    margin-left: 27px;
+}
+
+.SevFourtSection .HeadingTeccAbout {
+    display: flex;
+    justify-content: center;
+    font-family: 'BioRhyme';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.SevFourtSection .TeccAbout {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.GreyBox {
+    width: 900px;
+    height: 600px;
+    margin-left: 199px;
+    margin-top: 50px;
+    /* GREY */
+    background: #7C8288;
+    /* drop shadow for creen */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 15px;
+}
+
+.EnterName,
+.EnterEmail {
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    /* drop shadow for creen */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.EnterName {
+    margin-top: 40px;
+}
+
+.EnterMessage {
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    /* drop shadow for creen */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: justify;
+}
+
+.SevButton {
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background: #614802;
+    /* drop shadow for creen */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+.SocialHandle {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.Social {
+    width: 30px;
+    height: 30px;
+}
+
+.Copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.faq,
+.des {
+    display: none;
+}
+
+@media (max-width: 767px) {
+
+    /* ====================================================== */
+    /* 1. GLOBAL & CONTAINER RESET */
+    /* ====================================================== */
+
+    .HomeContainer {
+        width: 100%;
+        min-height: auto;
+        padding: 90px 10px 50px 10px;
+        box-sizing: border-box;
+    }
+
+    /* Reset all elements that used absolute positioning */
+    .HomeContainer h1,
+    .HomeContainer p,
+    .location,
+    section input,
+    section button,
+    .food245 #food4,
+    .food245 #food5,
+    .food245 #food2,
+    .thirdPart #car1,
+    .thirdPart #car2,
+    .thirdPart #car3,
+    .thirdPart #whiterice {
+        position: static !important;
+        /* Force natural document flow */
+        width: 100% !important;
+        height: auto;
+        margin: 0 auto;
+        left: auto;
+        top: auto;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    /* ====================================================== */
+    /* 2. HERO SECTION (H1, P, INPUT, BUTTON) */
+    /* ====================================================== */
+
+    .HomeContainer h1 {
+        font-size: 18px;
+        /* Smaller, readable size */
+        margin-top: 20px;
+        line-height: 1.3;
+    }
+
+    .HomeContainer p {
+        font-size: 13px;
+        margin-top: 10px;
+        line-height: 1.4;
+        width: 90% !important;
+        /* Ensure it stays centered and readable */
+    }
+
+    .location {
+        display: none;
+        /* Hide or integrate location icon into input field for clean mobile UI */
+    }
+
+    section input {
+        width: 70% !important;
+        height: 35px;
+        margin-top: 20px;
+        font-size: 16px;
+        padding: 0 15px;
+        /* Add internal padding */
+        font-size: small;
+        margin-left: 70px;
+    }
+
+    section button {
+        width: 50% !important;
+        height: 35px;
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 35px;
+        /* Vertically center text */
+        display: block;
+        /* Ensure it centers via margin: auto */
+    }
+
+    /* ====================================================== */
+    /* 3. IMAGES & TEXT SECTIONS (.secondPart, .thirdPart) */
+    /* ====================================================== */
+    .secondPart .food245 {
+        display: none;
+    }
+
+    .secondPart {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .thirdPart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 70px;
+        margin-right: 90px;
+    }
+
+    .thirdPart #car1,
+    .thirdPart #car2,
+    .thirdPart #car3 {
+        width: 70px;
+        height: 50px;
+
+    }
+
+    .secondPart h2 {
+        /* TeCc Culinary has what you need */
+
+        font-family: 'BioRhyme';
+        font-style: normal;
+        font-weight: 1900;
+        font-size: 15px;
+        line-height: 20px;
+        color: #1E1B74;
+        margin-top: 20px;
+        margin-left: -40px;
+
+    }
+
+    /* Ensure the large 'whiterice' image takes the full width */
+    .thirdPart #whiterice {
+        display: none;
+    }
+
+    .hunger {
+        flex-direction: column;
+        margin: 30px 15px;
+        gap: 10px;
+        font-size: 8px;
+        text-align: left;
+        font-family: sans-serif;
+        font-weight: 300;
+        line-height: 20px;
+        margin-left: 50px;
+    }
+
+    .download {
+        flex-direction: row;
+        gap: 15px;
+        margin-left: -3 0px;
+    }
+
+    .gg,
+    .aa {
+        width: 90px;
+        height: 25px;
+        margin-top: -20px;
+    }
+
+
+    /* ====================================================== */
+    /* 4. SERVICE & CONTACT SECTION */
+    /* ====================================================== */
+
+    /* .serviceSection {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        margin: 50px 0 0 0;
+        padding: 20px 10px;
+        height: auto;
+    } */
+
+    .serviceBox h4 {
+        display: none;
+    }
+
+    /* Service Stats Box */
+    .cardBoxServ {
+        width: 90%;
+        height: 2%;
+        margin: 2px auto;
+        display: flex;
+        gap: 10px;
+        padding: 2px 0;
+        border-radius: 50px;
+    }
+
+    .cardBoxServ h3 {
+        font-size: 14px;
+        margin: 5px 0;
+        text-align: center;
+        width: 90%;
+    }
+
+    .SevFirstSection .h3first {
+        font-weight: 700;
+        margin-left: 40px;
+    }
+
+    .SevFirstSection .h3Second {
+        display: none;
+    }
+
+    .SevFirstSection .h3third {
+        display: none;
+    }
+
+    .SevSecondSection .h4tag1 {
+        font-size: small;
+        line-height: 20px;
+        margin-left: -40px;
+    }
+
+    .SevSecondSection .h4tag2 {
+        display: none;
+    }
+
+    .SevSecondSection .h4tag3 {
+        display: none;
+    }
+
+    .SevThirdSection .disco2 {
+        display: none;
+    }
+
+    .SevThirdSection .disco3 {
+        display: none;
+    }
+
+
+    .faq {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 70px auto;
+    }
+
+    .des {
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        margin-left: 32.5px;
+    }
+
+
+    .h3first,
+    .h3Second,
+    .h3third {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    /* About Section (The black box) */
+    .SevFourtSection {
+        width: 100%;
+        height: auto;
+        margin: 30px 0 0 0;
+        padding: 20px 0;
+        /* padding-left: 70px;
+        padding-right: 70px; */
+    }
+
+    .SevFourtSection .HeadingTeccAbout {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .SevFourtSection .TeccAbout {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 10px 15px;
+        width: auto;
+    }
+
+    /* Contact Form (Grey Box) */
+    .GreyBox {
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
+        padding: 20px 10px;
+    }
+
+    .EnterName,
+    .EnterEmail,
+    .EnterMessage {
+        width: 90%;
+        max-width: 400px;
+        height: 40px;
+    }
+
+    .EnterMessage {
+        height: 150px;
+    }
+
+    .SevButton {
+        width: 50%;
+        height: 45px;
+        line-height: 45px;
+        margin-top: 20px;
+    }
+
+    .SocialHandle {
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .Copyright {
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+}

@@ -1,0 +1,382 @@
+.ServicesContainer {
+    /* Changed background to a subtle color for less distraction */
+    background: #bef37d;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 0;
+    /* Increased padding */
+    margin-top: 80%;
+}
+
+header{
+    position: absolute;
+    color: #0e3804;
+    margin-top: 90px;
+    left: 600px;
+   
+}
+
+
+.sectionFirst {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    /* top: 140px; */
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+/* OUR SERVICES - Styling for the entire section and its main heading */
+.serviceSection h1 {
+    position: absolute;
+    left: 120px;
+    top: 120px;
+    width: 80%;
+    text-align: center;
+    color: #121f03;
+    margin-bottom: 30px;
+
+}
+
+
+/* Discover local restaurant - Styling for the secondary heading */
+.Section1part h2 {
+    position: absolute;
+    width: 91.5%;
+    left: 4%;
+    /* max-width: 700px; */
+    margin: 140px auto 10px;
+    padding: 10px;
+    background-color: #305306;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* Ensure you have these fonts imported/available */
+    font-family: 'BioRhyme', sans-serif;
+    font-weight: 600;
+    font-size: clamp(20px, 4vw, 36px);
+    text-align: center;
+    color: #b2fa53;
+    border-radius: 8px;
+
+
+}
+
+/* Taste the flavors of the worlds with our wide selection of restaurants ....... be it your favorite local spot or hidden gem */
+.Section1part p {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    /* max-width: 700px; */
+    margin: 220px auto 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #101d02;
+
+}
+
+/* Image Card Container */
+/* **IMPORTANT:** Renamed from .card to .card-wrapper */
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 310px;
+    padding: 20px 0;
+    /* Increased vertical padding */
+    gap: 100px;
+
+    /* Sets 3 equal-width columns */
+    gap: 20px;
+    /* This is the element for spacing cards */
+    padding: 0%;
+}
+
+/* Added a style to target the Material UI Cards for consistent spacing */
+/* The Card component itself has a margin of 20px for better spacing */
+.card-wrapper>div {
+    margin: 5px;
+
+}
+
+.sectionSecond {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    top: 1650px;
+    padding: 10px 0;
+    background-color: #ffffff;
+}
+
+/* 📱 Order And Pay With Ease */
+
+.Section2part h2 {
+    position: absolute;
+    width: 91.5%;
+    left: 5%;
+    /* max-width: 700px; */
+    margin: 30px auto 10px;
+    padding: 10px;
+    background-color: #305306;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* Ensure you have these fonts imported/available */
+    font-family: 'BioRhyme', sans-serif;
+    font-weight: 600;
+    font-size: clamp(20px, 4vw, 36px);
+    text-align: center;
+    color: #b2fa53;
+    border-radius: 8px;
+
+
+}
+
+/* Tap, tap, done! Place the order with just a few clicks and pay with your preferred method.......  */
+.Section2part p {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    /* max-width: 700px; */
+    margin: 120px auto 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #101d02;
+
+}
+
+/* --- CARD WRAPPER STYLES for the Food Items --- */
+.sectionSecond>div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Spacing between cards */
+    justify-content: center;
+    /* Center cards in the container */
+    padding: 0 10px;
+}
+
+
+.cardBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* Spacing between cards */
+    justify-content: center;
+    /* Center cards in the container */
+    padding: 60px 0px;
+    margin-top: 200px;
+}
+
+/* --- GENERIC CARD STYLES (Applies to .card, .card2, ... .card10) --- */
+
+/* Use a selector to target all the similarly structured cards */
+.card,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.card18,
+.card19,
+.card20 {
+    /* Define the card size and appearance */
+    width: 100%;
+    /* Default to full width on small screens */
+    max-width: 400px;
+    /* Maximum width for each card */
+    height: 430px;
+    border: 1px solid #afa6a6;
+    border-radius: 12px;
+    overflow: hidden;
+    /* Ensures image corners are rounded */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #cddfaf;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover,
+.card7:hover,
+.card8:hover,
+.card9:hover,
+.card10:hover,
+.card11:hover,
+.card12:hover,
+.card13:hover,
+.card14:hover,
+.card15:hover,
+.card16:hover,
+.card17:hover,
+.card18:hover,
+.card19:hover,
+.card20:hover {
+    transform: translateY(-9px);
+    /* Lift card on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* --- IMAGE STYLES --- */
+/* We'll try to target the images consistently, even with unique classes */
+.card-image,
+.card-image2,
+.card-image3,
+.card-image4,
+.card-image5,
+.card-image6,
+.card-image7,
+.card-image8,
+.card-image9,
+.card-image10 {
+    display: flex;
+    justify-content: center;
+    left: 90px;
+    height: 300px;
+    /* Fixed height for image consistency */
+    object-fit: cover;
+    /* Ensures image covers the area without distortion */
+    /* border-bottom: 5px solid #eee; */
+    border: 8px solid #eee;
+    border-radius: 15px;
+}
+
+/* --- CONTENT STYLES --- */
+.card-content,
+.card-content2,
+.card-content3,
+.card-content4,
+.card-content5,
+.card-content6,
+.card-content7,
+.card-content8,
+.card-content9,
+.card-content10 {
+    padding: 5px;
+    flex-grow: 5;
+    /* Allows content to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+/* --- TITLE STYLES --- */
+.card-title,
+.card-title2,
+.card-title3,
+.card-title4,
+.card-title5,
+.card-title6,
+.card-title7,
+.card-title8,
+.card-title9,
+.card-title10 {
+    font-size: 1rem;
+    color: #0e3804;
+    /* Primary color for title */
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+/* --- TEXT STYLES --- */
+.card-text,
+.card-text2,
+.card-text3,
+.card-text4,
+.card-text5,
+.card-text6,
+.card-text7,
+.card-text8,
+.card-text9,
+.card-text10 {
+    font-size: 0.80rem;
+    color: #225703;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+    flex-grow: 4;
+    /* Pushes the button to the bottom */
+}
+
+/* --- BUTTON STYLES --- */
+.card-button,
+.card-button2,
+.card-button3,
+.card-button4,
+.card-button5,
+.card-button6,
+.card-button7,
+.card-button8,
+.card-button9,
+.card-button10 {
+    display: inline-block;
+    padding: 12px 12px;
+    background-color: #2d7404;
+    /* Green color for the call to action */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-self: flex-center;
+    /* Keeps the button attached to the bottom-left */
+    font-family: sans-serif;
+}
+
+.card-button:hover,
+.card-button2:hover,
+.card-button3:hover,
+.card-button4:hover,
+.card-button5:hover,
+.card-button6:hover,
+.card-button7:hover,
+.card-button8:hover,
+.card-button9:hover,
+.card-button10:hover {
+    background-color: #103a04;
+}
+
+
+/* --- MEDIA QUERY for RESPONSIVENESS --- */
+
+/* Tablets and Desktops: 2 or 3 cards per row */
+/**@media (min-width: 768px) {
+    /* Set the width to achieve 3 cards per row, accounting for gap */
+/* .card, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10 {
+        width: calc(33.33% - 14px); /* Three cards per row minus half the gap on both sides */
+/* }
+} */
+
+/* Larger Desktops: 4 cards per row */
+/*@media (min-width: 1200px) {
+    .card, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10 {
+        width: calc(25% - 15px); /* Four cards per row minus half the gap on both sides */
+/* }
+} */
