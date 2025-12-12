@@ -7,7 +7,7 @@ import Contactus from "./pages/contactpage/Contactus"
 
 
 
-const App = () => {git
+const App = () => {
   return (
     <div>
       <BrowserRouter>
